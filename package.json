@@ -1,0 +1,13 @@
+{
+  "name": "renovate-config",
+  "version": "1.0.0",
+  "description": "Configuration files for Renovate",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "3.6.2"
+  }
+}
