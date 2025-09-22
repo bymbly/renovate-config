@@ -1,0 +1,6 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Preset used for libraries maintained by Bymbly",
+  "extends": ["github>bymbly/renovate-config"],
+  "rangeStrategy": "bump"
+}
