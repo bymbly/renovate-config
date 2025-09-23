@@ -21,4 +21,4 @@ Optionally, you can select a specific preset, such as:
 ## Available Presets
 
 - default (implicit) - pins dependencies
-- libs - for libraries, uses the `bump` rangeStrategy
+- libs - for libraries, uses the `widen` rangeStrategy
