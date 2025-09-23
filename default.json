@@ -6,6 +6,7 @@
   "automergeType": "branch",
   "semanticCommits": "enabled",
   "commitBodyTable": true,
+  "assignees": ["SnakeDoc"],
 
   "lockFileMaintenance": {
     "enabled": true,
