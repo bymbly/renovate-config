@@ -22,6 +22,12 @@
       "description": "Automerge pin updates",
       "matchUpdateTypes": ["pin", "pinDigest"],
       "automerge": true
+    },
+    {
+      "description": "Only allow Fedora <= 42 - otherwise renovate tries to update to rawhide",
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["fedora", "registry.fedoraproject.org/fedora"],
+      "allowedVersions": "<=42"
     }
   ]
 }
