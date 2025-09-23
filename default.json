@@ -28,6 +28,13 @@
       "matchDatasources": ["docker"],
       "matchPackageNames": ["fedora", "registry.fedoraproject.org/fedora"],
       "allowedVersions": "<=42"
+    },
+    {
+      "description": "Batch Fedora digest bumps weekly to cut down on CI runs",
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["fedora", "registry.fedoraproject.org/fedora"],
+      "matchUpdateTypes": ["digest"],
+      "extends": ["schedule:weekly"]
     }
   ]
 }
