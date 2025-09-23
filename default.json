@@ -35,6 +35,16 @@
       "matchPackageNames": ["fedora", "registry.fedoraproject.org/fedora"],
       "matchUpdateTypes": ["digest"],
       "extends": ["schedule:weekly"]
+    },
+    {
+      "description": "One week stability period for npm packages",
+      "matchDatasources": ["npm"],
+      "minimumReleaseAge": "7 days"
+    },
+    {
+      "description": "One week stability period for hex (Erlang/Elixir/Gleam) packages",
+      "matchDatasources": ["hex"],
+      "minimumReleaseAge": "7 days"
     }
   ]
 }
